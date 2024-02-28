@@ -1,0 +1,32 @@
+/*
+  design principals should generally conform with google material design
+  https://m3.material.io/
+*/
+@font-face {
+font-family: "Gabarito";
+src: url("./fonts/Gabarito-SemiBold.ttf");
+}
+
+:root {
+    --primary-bg-color: #1d1d1d;
+    --secondary-bg-color: #222121; 
+    --primary-text-color: #e3e3e3;
+    --secondary-text-color: #c4c4c4;
+    --link-color: #6286ca;
+}
+
+
+body {
+    background-color: var(--primary-bg-color);
+    color: var(--primary-text-color);
+    font-family: "Arial";
+    margin: 0px;
+}
+
+p {
+    font-size: larger;
+}
+
+a {
+    color: var(--link-color);
+}
